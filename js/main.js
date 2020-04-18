@@ -370,7 +370,7 @@ window.onload = function() {
 })(jQuery);
 
 $(function() {
-	$('a[href*="#contato"], a[href*="#diferenciais"]').click(function() {
+	$('a[href*="#contato"], a[href*="#diferenciais"], a[href*="#sobre"]').click(function() {
   
 	  var target = $(this.hash);
   
